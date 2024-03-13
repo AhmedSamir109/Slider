@@ -1,0 +1,38 @@
+.img {
+    height: 220px;
+}
+
+.overlay{
+    bottom: 1.25rem;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+i{
+    cursor: pointer;
+    color: wheat;
+    font-size: 20px;
+}
+#prev{
+    top: 50%;
+    left: 15px;
+}
+#next{
+    top: 50%;
+    right: 15px;
+}
+
+#close{
+    top: 15px;
+    right: 15px;
+}
+
+.fixed-layer{
+    background-color: rgba(0,0,0,0.4);
+}
+
+
+.smallImg{
+    width : calc(100% / 4.08);
+    /* margin-left: -4px ; */
+}
